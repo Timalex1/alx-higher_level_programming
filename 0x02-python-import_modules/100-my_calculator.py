@@ -5,7 +5,7 @@ def main(argv):
         '+': calculator_1.add,
         '-': calculator_1.sub,
         '*': calculator_1.mul,
-        '/': calculator_1.truediv,
+        '/': calculator_1.div,
     }
     if argc != 4:
         print('Usage: {:s} <a> <operator> <b>'.format(argv[0]))
