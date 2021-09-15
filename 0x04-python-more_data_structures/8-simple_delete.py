@@ -3,6 +3,7 @@ def simple_delete(a_dictionary, key=""):
     if a_dictionary is None:
         return
     for k in a_dictionary:
-        if k is key:
-           del a_dictionary[k]
+        if k == key:
+           del a_dictionary[key]
+           break
     return a_dictionary
