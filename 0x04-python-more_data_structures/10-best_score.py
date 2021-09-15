@@ -6,7 +6,7 @@ def best_score(a_dictionary):
 
     contar = 0
     for i in a_dictionary:
-        if a_dictionry[i] is None:
+        if a_dictionary[i] is None:
             return None
 
         if contar == 0:
