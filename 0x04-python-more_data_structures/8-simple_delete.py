@@ -2,7 +2,7 @@
 def simple_delete(a_dictionary, key=""):
     if a_dictionary is None:
         return
-    for k in a_dictionary.keys:
+    for k in a_dictionary.keys():
         if k is key:
-            a_dictionary.pop(k)
+            a_dictionary.pop(k, None)
     return a_dictionary
