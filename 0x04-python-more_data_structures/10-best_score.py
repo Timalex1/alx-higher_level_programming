@@ -16,5 +16,5 @@ def best_score(a_dictionary):
         contar += 1
 
     for x in a_dictionary:
-        if a_dictionary[x] == high;
-        return x
+        if a_dictionary[x] == high:
+            return x
