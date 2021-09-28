@@ -8,4 +8,3 @@ def safe_function(fct, *args):
         print("Exception: {}".format(ex), file=sys.stderr)
         return None
     return result
-        
