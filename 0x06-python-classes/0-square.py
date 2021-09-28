@@ -2,5 +2,5 @@
 """ this module defines a empty class (Square) """
 
 class Square:
-    """empty class for task 0"""
+    """ empty class for task 0 """
     pass
