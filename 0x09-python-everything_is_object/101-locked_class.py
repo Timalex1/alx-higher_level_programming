@@ -1,3 +1,8 @@
-#!usr/bin/python3
+#!/usr/bin/python3
+'''class that rejcts __dict__ and uses slots instead'''
+
+
 class LockedClass:
-    __slots__ = 'first_name'
+    '''this is the locked class'''
+
+    __slots__ = "first_name"
