@@ -4,7 +4,7 @@ Test for ``add_integer`` function
 Import function ``add_integer``
 ---------------------------------
 
-This is a test file, for add_integer function:
+This is an test file, for add_integer function:
 
 Import the function
 
@@ -12,7 +12,7 @@ Import the function
 
 Test
 
->>> add_integer(1, 2)
+	>>> add_integer(1, 2)
 	3
 	>>> add_integer(100, -2)
 	98
@@ -35,7 +35,6 @@ Test
 	>>> add_integer(None)
 	Traceback (most recent call last):
 	TypeError: a must be an integer
-
 
 	>>> add_integer(2, None)
 	Traceback (most recent call last):
