@@ -23,6 +23,6 @@ if __name__ == '__main__':
     for q in query:
         session.delete(q)
 
-
     session.commit()
+
     session.close()
