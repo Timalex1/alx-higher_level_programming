@@ -1,4 +1,4 @@
 #!/usr/bin/node
-const myVar = 'Javascript is amazing';
+const myVar = ['C is fun', 'Python is cool', 'Javascript is amazing'];
 
-console.log(myVar);
+console.log(myVar.join('\n'));
